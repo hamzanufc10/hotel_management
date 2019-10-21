@@ -4,3 +4,15 @@ You have to build a Hotel Management System using python. (Preferably Python).
 You have one hotel with multiple types of rooms and multiple rooms within each type with different prices.
 Types & Cost: Acacia: 1000, Oak: 1500, Maple: 2000, Mahogany: 3000
 Initally you have 5 rooms of each type.
+
+
+Functionality:
+
+1. You should be able to allot any incoming customer a single room and also store (in memory) the details of the client (Name, age, gender, address):
+	Input: Name, Age, Gender, Address, Room type preference
+	Output: A room number,if a room is available. If room not available, return some regret 
+  
+ 2. As a hotel Manager, I should be able to return what room is allotted to which customer or vice versa
+	Input 1. customer name      Output: room type
+	Input 2: room type          Output: Customer Name
+	
